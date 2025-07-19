@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend/api/**/*.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/auth/sendMagicLink",
+      "dest": "backend/api/auth/sendMagicLink.ts"
+    },
+    {
+      "src": "/api/recipe/generate",
+      "dest": "backend/api/recipe/generate.ts"
+    },
+    {
+      "src": "/api/recipe/save",
+      "dest": "backend/api/recipe/save.ts"
+    },
+    {
+      "src": "/api/recipe/delete",
+      "dest": "backend/api/recipe/delete.ts"
+    },
+    {
+      "src": "/api/recipe/update",
+      "dest": "backend/api/recipe/update.ts"
+    }
+  ]
+}
