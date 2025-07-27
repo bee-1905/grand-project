@@ -120,7 +120,7 @@ export default function HomePage() {
                     <div className="bg-gray-50 rounded-xl p-4 space-y-3">
                       <div className="h-32 rounded-lg overflow-hidden">
                         <img
-                          src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop&crop=center"
+                          src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=300&fit=crop&crop=center"
                           alt="Delicious pasta dish"
                           className="w-full h-full object-cover"
                         />
