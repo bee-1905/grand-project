@@ -136,3 +136,4 @@ export default function VerifyPage() {
     </PageTransition>
   )
 }
+export const dynamic = 'force-dynamic'
